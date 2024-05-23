@@ -1,0 +1,30 @@
+{
+  "name": "api-todo",
+  "version": "1.0.0",
+  "main": "program.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx source/program.ts",
+    "dev": "tsx watch source/program.ts"
+  },
+  "keywords": [
+    "Typescript",
+    "Fastify",
+    "Docker",
+    "Postgres",
+    "API"
+  ],
+  "author": "@itallonet",
+  "license": "MIT",
+  "description": "API in Fastify, Postgres and Docker. Responsible for task management (CRUD).",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "fastify": "^4.27.0",
+    "prisma": "^5.14.0"
+  }
+}
